@@ -16,6 +16,12 @@ const AllocationForm = (props) => {
                 setCost("");
                 return;
             }
+        //check if cost is number
+        if (Number.isNaN(cost)) {
+            alert("The value must be a number");
+            setCost("");
+            return;
+        }
 
         const expense = {
             name: name,
