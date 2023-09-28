@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button {
+  color: white;
+  width: 30px;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.button-add {
+ background-color: rgb(38, 154, 38);
+}
+
+.button-red {
+  background-color: rgb(207, 8, 8);
+}
